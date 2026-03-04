@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Customização do Componente</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+<h1>Customização do Componente /SCMTMS/WDCC_FWD_ORDER</h1>
+</header>
+
+<div class="container">
+
+<!-- MENU LATERAL -->
+<aside class="menu">
+<h2>Navegação</h2>
+<ul>
+<li>Página Inicial</li>
+<li class="ativo">Página Principal</li>
+<li>Caixa de Diálogo</li>
+<li>Lista de Ações</li>
+<li>Ajuda</li>
+<li>Seção 1</li>
+<li>Seção 2</li>
+</ul>
+</aside>
+
+<!-- CONTEÚDO PRINCIPAL -->
+<main class="conteudo">
+
+<h2>Visão Geral da Página</h2>
+
+<table>
+<tr>
+<th>Elemento</th>
+<th>Componente</th>
+<th>ID de Configuração</th>
+<th>Nome da Janela</th>
+</tr>
+
+<tr>
+<td>SEÇÃO_1</td>
+<td>FPM_FORM_UIBB_GL2</td>
+<td>/SCMTMS/WDCC_FWO_GEN</td>
+<td>FORM_WINDOW</td>
+</tr>
+
+<tr class="selecionado">
+<td>UIBB</td>
+<td>FPM_FORM_UIBB_GL2</td>
+<td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+<td>FORM_WINDOW</td>
+</tr>
+
+<tr>
+<td>UIBB</td>
+<td>FPM_TABBED_UIBB</td>
+<td>/SCMTMS/WDCC_TRQ_BUPA</td>
+<td>ABA_JANELA</td>
+</tr>
+</table>
+
+<h2>Atributos do UIBB</h2>
+
+<div class="formulario">
+
+<label>Nome da Janela:</label>
+<input type="text" value="FORM_WINDOW">
+
+<label>ID de Configuração:</label>
+<input type="text" value="/SCMTMS/WDCC_CMN_ADMINDATA">
+
+<label>Número da Linha:</label>
+<select>
+<option>Visível</option>
+<option selected>Oculto e Excluído do Evento</option>
+<option>Oculto mas Processado</option>
+</select>
+
+<label>Título:</label>
+<input type="text" value="/SCMTMS/UI_CMN/ADM_INFO">
+
+</div>
+
+</main>
+
+</div>
+
+<footer>
+Projeto Acadêmico - Réplica SAP
+</footer>
+
+</body>
+</html>

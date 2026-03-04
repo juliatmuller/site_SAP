@@ -61,3 +61,103 @@ color: rgb(70, 4, 4);
     flex-wrap: wrap;
     margin:5px ;
 }
+
+
+
+/*-------------------------------------------------------------------------------------*/
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #f0f2f5;
+}
+
+.topo {
+background-color: #d9d9d9;
+padding: 15px;
+border-bottom: 2px solid #bfbfbf;
+}
+
+.topo h1 {
+margin: 0;
+font-size: 18px;
+}
+
+.container {
+display: flex;
+}
+
+
+.menu {
+width: 250px;
+background-color: #eeeeee;
+padding: 15px;
+border-right: 1px solid #ccc;
+}
+
+.menu ul {
+list-style: none;
+padding: 0;
+}
+
+.menu li {
+padding: 8px;
+border-bottom: 1px solid #ccc;
+}
+
+.menu li.ativo {
+background-color: #cce5ff;
+font-weight: bold;
+}
+
+.conteudo {
+flex: 1;
+padding: 20px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 30px;
+}
+
+table, th, td {
+border: 1px solid #bfbfbf;
+}
+
+th {
+background-color: #e6e6e6;
+}
+
+th, td {
+padding: 8px;
+text-align: left;
+}
+
+.selecionado {
+background-color: #d0e7ff;
+}
+
+.formulario {
+display: flex;
+flex-direction: column;
+max-width: 400px;
+}
+
+.formulario label {
+margin-top: 10px;
+font-weight: bold;
+}
+
+.formulario input,
+.formulario select {
+padding: 6px;
+margin-top: 5px;
+}
+
+footer {
+background-color: #d9d9d9;
+text-align: center;
+padding: 10px;
+border-top: 1px solid #bfbfbf;
+}
